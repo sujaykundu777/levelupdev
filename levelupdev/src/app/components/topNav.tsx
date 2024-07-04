@@ -46,6 +46,12 @@ const TopNav = () => {
             <Link href="/resources" className="text-white hover:text-white">
               Resources
             </Link>
+            <Link href="/showcase" className="text-white hover:text-white">
+              Community Showcase
+            </Link>
+            <Link href="/about" className="text-white hover:text-white">
+              Our Team
+            </Link>
           </div>
           <div className="flex md:hidden">
             <button
@@ -84,13 +90,25 @@ const TopNav = () => {
             href="/events"
             className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
           >
-            Upcoming Events
+            Meetups
           </Link>
           <Link
             href="/resources"
             className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
           >
             Resources
+          </Link>
+          <Link
+            href="/showcase"
+            className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
+          >
+            Community Showcase
+          </Link>
+          <Link
+            href="/about"
+            className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
+          >
+            Our Team
           </Link>
         </div>
       )}
