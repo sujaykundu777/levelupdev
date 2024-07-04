@@ -41,7 +41,7 @@ const TopNav = () => {
               Guides
             </a>
             <Link href="/events" className="text-white hover:text-white">
-              Upcoming Events
+              Meetups
             </Link>
             <Link href="/resources" className="text-white hover:text-white">
               Resources
