@@ -1,5 +1,6 @@
 import React from "react";
 import TopNav from "./components/topNav";
+import Image from "next/image";
 import JoinCommunityWidget from "./components/communityWidget";
 
 export default function Home() {
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
         </section>
         <section
-          id="learn-web-development"
+          id="learning-path"
           className="mx-auto max-w-screen-xl py-24 lg:py-20"
         >
           <h2 className="text-3xl font-bold text-center mb-8">
@@ -57,7 +58,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-semibold mb-4 text-black">
-                Frontend Development
+                Frontend Web Development
               </h3>
               <p className="text-gray-600 mb-4">
                 Frontend development involves creating the user interface and
@@ -65,12 +66,16 @@ export default function Home() {
                 using technologies like React to build responsive and
                 interactive user interfaces.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-black">Skills:</h4>
+              <h4 className="text-lg font-semibold mb-2 text-black">
+                Skills you will learn:
+              </h4>
               <ul className="list-disc list-inside text-black">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>Next JS</li>
+                <li>Git</li>
               </ul>
               <div className="mt-4">
                 <a
@@ -90,12 +95,19 @@ export default function Home() {
                 and database management of a website or web application. It
                 focuses on technologies like Node.js and databases like MongoDB.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-black">Skills:</h4>
+              <h4 className="text-lg font-semibold mb-2 text-black">
+                {" "}
+                Skills you will learn:
+              </h4>
               <ul className="list-disc list-inside text-black">
-                <li>Node.js</li>
+                <li>Node</li>
                 <li>Express.js</li>
                 <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Nest JS</li>
                 <li>RESTful APIs</li>
+                <li>Graphql</li>
+                <li>Git</li>
               </ul>
               <div className="mt-4">
                 <a
@@ -108,19 +120,26 @@ export default function Home() {
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-semibold mb-4 text-black">
-                MERN Stack
+                MERN Stack Web Development
               </h3>
               <p className="text-gray-600 mb-4">
                 MERN stack is a popular technology stack for building full stack
                 web applications. It includes MongoDB, Express.js, React, and
                 Node.js.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-black">Skills:</h4>
+              <h4 className="text-lg font-semibold mb-2 text-black">
+                Skills you will learn:
+              </h4>
               <ul className="list-disc list-inside text-black">
-                <li>MongoDB</li>
-                <li>Express.js</li>
+                <li>HTML, CSS, JS</li>
                 <li>React</li>
+                <li>Express.js</li>
                 <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>RESTful APIs</li>
+                <li>Graphql</li>
+                <li>Git</li>
               </ul>
               <div className="mt-4">
                 <a
@@ -134,7 +153,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="#community">
+        <section
+          id="community"
+          className="mx-auto max-w-screen-xl py-4 lg:py-20"
+        >
           <h2 className="text-3xl font-bold text-center mb-8">
             Join the Community
           </h2>
@@ -142,8 +164,14 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-lg p-6">
               <JoinCommunityWidget src="https://nas.io/checkout-widget?communityCode=LEVEL_UP_6&communitySlug=%2Flevel-up-dev&buttonText=Join%20as%20member&buttonTextColorHex=%23000&buttonBgColorHex=%23fccb1d&widgetTheme=light&backgroundColorHex=%23fff" />
             </div>
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <img src="/cto-1.png" width={400} height={300} />
+            <div className="bg-white rounded-lg shadow-lg p-6 justify-center text-center">
+              <Image
+                alt="Level Up Dev Community"
+                src="/cto-1.png"
+                width={300}
+                height={300}
+                className="mx-auto rounded-md"
+              />
               <h3 className="text-xl font-semibold mb-4">Level Up Dev</h3>
               <p className="text-gray-600 mb-4">
                 Level Up Dev is a community of web developers and enthusiasts,

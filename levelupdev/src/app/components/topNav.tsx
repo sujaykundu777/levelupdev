@@ -27,20 +27,17 @@ const TopNav = () => {
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            {/* <Link href="/" className="text-white hover:text-white">
-              Home
-            </Link>
-            <Link href="/about" className="text-white hover:text-white">
-              About
+            {/* <Link href="/guides" className="text-white hover:text-white">
+              Guides
             </Link> */}
-            <a
+            {/* <a
               href="https://levelupdev.substack.com"
               className="text-white hover:text-white"
               target="_blank"
             >
               Guides
-            </a>
-            <Link href="/events" className="text-white hover:text-white">
+            </a> */}
+            {/* <Link href="/events" className="text-white hover:text-white">
               Meetups
             </Link>
             <Link href="/resources" className="text-white hover:text-white">
@@ -51,6 +48,12 @@ const TopNav = () => {
             </Link>
             <Link href="/about" className="text-white hover:text-white">
               Our Team
+            </Link> */}
+            <Link href="/blog" className="text-white hover:text-white">
+              Blog
+            </Link>
+            <Link href="/login" className="text-white hover:text-white">
+              Login
             </Link>
           </div>
           <div className="flex md:hidden">
@@ -78,7 +81,7 @@ const TopNav = () => {
       </nav>
       {isMenuOpen && (
         <div className="md:hidden bg-white">
-          <a
+          {/* <a
             href="https://levelupdev.substack.com"
             className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
             target="_blank"
@@ -109,6 +112,18 @@ const TopNav = () => {
             className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
           >
             Our Team
+          </Link> */}
+          <Link
+            href="/blog"
+            className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
+          >
+            Blog
+          </Link>
+          <Link
+            href="/login"
+            className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
+          >
+            Login
           </Link>
         </div>
       )}

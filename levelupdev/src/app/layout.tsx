@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full scroll-smooth focus:scroll-auto">
       <body className={inter.className}>
         <TopNav />
         {children}
