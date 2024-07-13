@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import TopNav from "./components/topNav";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -22,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full scroll-smooth focus:scroll-auto">
       <body className={inter.className}>
-        <TopNav />
         {children}
         <ToastContainer /> {/* ToastContainer added inside the body tag */}
       </body>

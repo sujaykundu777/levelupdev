@@ -1,14 +1,24 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-import React, { useState } from "react";
+// import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import Logout from "./Logout";
 
-const TopNav = () => {
+const TopNav = ({ user }: { user: any }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    if (user) {
+      setIsLoggedIn(true);
+    } else {
+      setIsLoggedIn(false);
+    }
+  }, [user]);
 
   return (
     <header className="fixed min-w-full bg-black shadow overflow-hidden z-50">
@@ -52,9 +62,12 @@ const TopNav = () => {
             <Link href="/blog" className="text-white hover:text-white">
               Blog
             </Link>
-            <Link href="/login" className="text-white hover:text-white">
-              Login
-            </Link>
+            {isLoggedIn && <Logout isMenuOpen={false} />}
+            {!isLoggedIn && (
+              <Link href="/login" className="text-white hover:text-white">
+                Login
+              </Link>
+            )}
           </div>
           <div className="flex md:hidden">
             <button
@@ -119,12 +132,15 @@ const TopNav = () => {
           >
             Blog
           </Link>
-          <Link
-            href="/login"
-            className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
-          >
-            Login
-          </Link>
+          {isLoggedIn && <Logout isMenuOpen />}
+          {!isLoggedIn && (
+            <Link
+              href="/login"
+              className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
+            >
+              Login
+            </Link>
+          )}
         </div>
       )}
     </header>

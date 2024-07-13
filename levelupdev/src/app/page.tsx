@@ -1,12 +1,15 @@
 import React from "react";
-import TopNav from "./components/topNav";
 import Image from "next/image";
+import TopNav from "./components/topNav";
 import JoinCommunityWidget from "./components/communityWidget";
+import { auth } from "@/auth";
 
-export default function Home() {
+export default async function Home() {
+  const session = await auth();
   return (
-    <div>
-      <TopNav />
+    <div className="h-full scroll-smooth focus:scroll-auto">
+      <TopNav user={session?.user} />
+
       <div className="pt-2">
         <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply h-screen">
           <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
