@@ -48,7 +48,6 @@ const LoginForm: React.FC = () => {
     <form action={handleSubmitForm}>
       {" "}
       {/* formAction passed to action prop */}
-      {state.type}
       <FormButton
         type="submit"
         name="action"
