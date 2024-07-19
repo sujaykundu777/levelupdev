@@ -1,9 +1,14 @@
 //contentlayer.config.ts
 import { defineDocumentType, defineNestedType, makeSource } from 'contentlayer2/source-files'
 // import rehype from 'rehype'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import remarkToc from 'remark-toc'
+import rehypeSlug from 'rehype-slug'
+import remarkGfm from 'remark-gfm'
 import rehypePrism from 'rehype-prism-plus';
-
-
+import rehypeCodeTitles from 'rehype-code-titles';
+import lazyLoadPlugin from 'rehype-plugin-image-native-lazy-loading';
+    
 const Author = defineNestedType(() => ({
     name: 'Author',
     fields: {
@@ -70,11 +75,17 @@ export const Post = defineDocumentType(() => ({
 }))
 
 export default makeSource({
-    contentDirPath: 'src/app/blog/posts',
+    contentDirPath: 'src/app/(marketing)/blog/posts',
     documentTypes: [Post],
     markdown: {
-        rehypePlugins: [
-            rehypePrism
+       remarkPlugins: [remarkGfm, remarkToc ],
+       rehypePlugins: [
+            rehypeAutolinkHeadings,
+            rehypeSlug,
+            rehypeCodeTitles,
+            rehypePrism,
+            // @ts-ignore
+            lazyLoadPlugin
         ]
     },
 })
