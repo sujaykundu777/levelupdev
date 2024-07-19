@@ -47,3 +47,7 @@ https://www.ryancarmody.dev/blog/add-code-blocks-with-syntax-highlighting-to-nex
 https://blog.logrocket.com/using-outstatic-next-js-static-site-management/
 
 https://github.com/octokit/octokit.js
+
+https://blog.logrocket.com/auth-js-client-side-authentication-next-js/
+
+https://docs.github.com/en/rest/guides/scripting-with-the-rest-api-and-javascript?apiVersion=2022-11-28#authenticating-with-a-github-app
