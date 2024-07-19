@@ -47,7 +47,7 @@ const BlogPage: React.FC = async () => {
           <h1 className="mb-8 text-center text-2xl font-black">
             Levelupdev - Blog
           </h1>
-          <h2 className="flex pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
+          <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-400 dark:text-gray-300 sm:text-2xl md:text-2xl">
             Recent Posts
           </h2>
           <hr className="border-gray-200 dark:border-gray-700" />

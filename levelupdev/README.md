@@ -36,6 +36,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+## Nexjs config
+
 https://authjs.dev/getting-started/migrating-to-v5#authenticating-server-side
 
 https://stackoverflow.com/questions/68163385/parsing-error-cannot-find-module-next-babel
@@ -43,3 +45,5 @@ https://stackoverflow.com/questions/68163385/parsing-error-cannot-find-module-ne
 https://www.ryancarmody.dev/blog/add-code-blocks-with-syntax-highlighting-to-nextjs-blog-prismjs.
 
 https://blog.logrocket.com/using-outstatic-next-js-static-site-management/
+
+https://github.com/octokit/octokit.js
