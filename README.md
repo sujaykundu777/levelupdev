@@ -24,3 +24,9 @@ Comments
 
 Documentation
 - [Docusaurus](https://docusaurus.io/)
+
+Frontend Hosting  (yet to decide)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+- [Github Pages](https://pages.github.com)
+- [vercel](https://vercel.com)
+- [netlify](https://netlify.com)
