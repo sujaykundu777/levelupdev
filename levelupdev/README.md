@@ -37,3 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 https://authjs.dev/getting-started/migrating-to-v5#authenticating-server-side
+
+https://stackoverflow.com/questions/68163385/parsing-error-cannot-find-module-next-babel
+
+https://www.ryancarmody.dev/blog/add-code-blocks-with-syntax-highlighting-to-nextjs-blog-prismjs

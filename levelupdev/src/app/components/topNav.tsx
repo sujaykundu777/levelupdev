@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Logout from "./Logout";
 
@@ -26,14 +26,16 @@ const TopNav = ({ user }: { user: any }) => {
         <div className="flex justify-between w-full">
           <div className="flex items-center">
             <Link href="/" passHref className="flex items-center space-x-2">
-              {/* <Image
-                  src="/tailwindui-logo.svg"
-                  alt="Tailwind UI"
-                  width={250}
-                  height={50}
-                  className="h-8 w-auto"
-                /> */}
-              <span className="text-lg font-bold text-white">Levelup Dev</span>
+              <Image
+                src="/logo.webp"
+                alt="Tailwind UI"
+                width={250}
+                height={50}
+                className="h-8 w-auto"
+              />
+              <span className="text-lg font-bold text-white py-2">
+                levelupdev
+              </span>
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">

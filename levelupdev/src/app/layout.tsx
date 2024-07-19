@@ -10,7 +10,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Levelup Dev - Learn Web Development",
+  title: "Levelupdev - Community of Web Developers",
   description:
     "A community of web developers and enthusiasts, who are passionate about learning and growing together.",
 };
