@@ -12,6 +12,7 @@ Frontend
 - Tailwind CSS
 - [Flowbite UI](https://flowbite-react.com/)
 - [ContentLayer](https://contentlayer.dev/)
+- [Outstatic](https://outstatic.com)
 
 Backend 
 

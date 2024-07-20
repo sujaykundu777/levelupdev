@@ -1,6 +1,11 @@
 ---
 title: Hello World ! 
-date: 2021-12-24
+date: 2024-07-18
+description: 'Welcome to levelupdev'
+publishedAt: 2024-07-18
+status: published
+slug: '/hello-world'
+tags: 'general'
 ---
 
 How can we start a web developer's community blog without a Hello World !

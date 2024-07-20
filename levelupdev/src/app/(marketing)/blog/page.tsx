@@ -3,6 +3,16 @@ import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allPosts, Post } from "contentlayer/generated";
 
+export const metadata = {
+  title: "Levelupdev - Blog",
+  description: "Weekly challenges and community news",
+  languages: {
+    "en-US": "/en-US",
+  },
+  keywords: ["levelupdev", "blog", "web development community"],
+  category: "technology",
+};
+
 function PostCard(post: Post) {
   return (
     <div className="mb-8">
@@ -37,6 +47,12 @@ const BlogPage: React.FC = async () => {
           <h1 className="mb-8 text-center text-2xl font-black">
             Levelupdev - Blog
           </h1>
+          <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-400 dark:text-gray-300 sm:text-2xl md:text-2xl">
+            Recent Posts
+          </h2>
+          <hr className="border-gray-200 dark:border-gray-700" />
+          {!posts.length && "No posts found."}
+
           {posts.map((post, idx) => (
             <PostCard key={idx} {...post} />
           ))}

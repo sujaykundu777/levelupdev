@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import JoinCommunityWidget from "./components/communityWidget";
+import JoinCommunityWidget from "../components/communityWidget";
 
 export default async function Home() {
   return (
