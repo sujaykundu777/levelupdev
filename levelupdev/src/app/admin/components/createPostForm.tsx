@@ -1,16 +1,26 @@
 "use client";
 
 import { useState } from "react";
+import { createPost } from "@/app/actions/octokit";
 
 export default function CreatePostForm() {
   const [postTitle, setPostTitle] = useState("");
   const [postDescription, setPostDescription] = useState("");
   const [postSlug, setPostSlug] = useState("");
 
-  const handleCreatePost = () => {
+  const handleCreatePost = async () => {
     console.log("clicking on the create post");
     // create post
     console.log(postTitle, postDescription, postSlug);
+    const post = {
+      title: postTitle,
+      description: postDescription,
+      slug: postSlug,
+      content: "## This is a new post",
+    };
+    await createPost(post).then((res) => {
+      console.log("post created", res);
+    });
   };
 
   return (
