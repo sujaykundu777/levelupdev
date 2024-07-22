@@ -1,0 +1,33 @@
+.slick-slider .slick-prev {
+  background-image: url("/images/prev-button.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 60px;
+  width: 60px;
+  left: -80px;
+  top: 70%;
+}
+
+.slick-prev::before {
+  content: "";
+  font-family: "";
+  font-size: 0;
+  line-height: 1;
+}
+
+.slick-slider .slick-next {
+  background-image: url("/images/next-button.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 60px;
+  width: 60px;
+  right: -80px;
+  top: 70%;
+}
+
+.slick-next::before {
+  content: "";
+  font-family: "";
+  font-size: 0;
+  line-height: 1;
+}
