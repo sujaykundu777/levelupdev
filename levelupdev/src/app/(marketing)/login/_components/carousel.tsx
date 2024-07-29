@@ -46,10 +46,10 @@ const Carousel = () => {
         <Slider className="flex w-full" {...settings}>
           {carouselItems.map((item, index) => (
             <div className="text-white w-full" key={index}>
-              <h3 className="text-[50px] tab:text-[25px] font-medium tab:font-light tab:mb-4">
+              <h3 className="text-[50px] tab:text-[25px] mobile:text-[20px] font-medium tab:font-light tab:mb-4">
                 {item.heading}
               </h3>
-              <p className="text-[23px] tab:text-[18px] font-bold">
+              <p className="text-[23px] tab:text-[18px] mobile:text-[15px] font-bold">
                 {item.para}
               </p>
             </div>
