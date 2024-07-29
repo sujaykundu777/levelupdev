@@ -31,3 +31,18 @@
   font-size: 0;
   line-height: 1;
 }
+
+@media screen and (max-width: 875px) {
+  .slick-slider .slick-next {
+    height: 50px;
+    width: 50px;
+    right: -70px;
+    top: 20%;
+  }
+  .slick-slider .slick-prev {
+    height: 50px;
+    width: 50px;
+    left: -50px;
+    top: 20%;
+  }
+}
