@@ -15,10 +15,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        tab: { max: "875px" },
+        mobile: { max: "475px" },
+      },
     },
   },
-  plugins: [
-     flowbite.plugin(),
-  ],
+  plugins: [flowbite.plugin()],
 };
 export default config;
