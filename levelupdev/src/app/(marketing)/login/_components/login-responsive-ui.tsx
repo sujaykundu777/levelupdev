@@ -3,9 +3,9 @@ import WelcomeText from "./welcome-text";
 import LoginForm from "@/app/components/LoginForm";
 import Carousel from "./carousel";
 
-const LoginTabUi = () => {
+const LoginResponsiveUi = () => {
   return (
-    <div className="w-screen hidden tab:block">
+    <div className="w-screen hidden tab:block overflow-x-hidden">
       <div
         className="w-screen h-[60vh] bg-red-600 relative"
         style={{
@@ -92,4 +92,4 @@ const LoginTabUi = () => {
   );
 };
 
-export default LoginTabUi;
+export default LoginResponsiveUi;
