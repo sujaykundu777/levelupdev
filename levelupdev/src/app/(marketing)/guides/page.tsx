@@ -1,16 +1,29 @@
 import React from "react";
 
-const GuidesPage: React.FC = () => {
+import { getDocuments } from "outstatic/server";
+
+const GuidesPage: React.FC = async () => {
+  const posts = await getData();
+  console.log("posts >>>", posts);
+
   return (
-    <div>
-      <h1>Guides </h1>
-      <p>
-        Sorry, but we are in the process of building this page, Coming Soon !!{" "}
-        Learn Web Development with our free guides. We cover a wide range of
-        topics, from beginner to advanced.
-      </p>
+    <div className="pt-2">
+      <h1 className="my-20">Guides </h1>
+      <ul>
+        {posts.map((post) => (
+          <li key={post.slug}>
+            <a href={`/guides/${post.slug}`}>{post.title}</a>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
 
 export default GuidesPage;
+
+async function getData() {
+  const posts = getDocuments("posts", ["title", "slug"]);
+
+  return posts;
+}
