@@ -1,6 +1,6 @@
 {
-  "commit": "6d0a658386b7692380083a032ade148eee243057",
-  "generated": "2024-08-03T15:27:10.190Z",
+  "commit": "c6427ac2e9c96d497c9490a0e023026966dd0657",
+  "generated": "2024-08-03T15:28:42.505Z",
   "metadata": [
     {
       "__outstatic": {
@@ -22,24 +22,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f18c22bb1cc75c42badb8e6ee044c2db31ffa778",
-        "hash": "2905592984",
-        "path": "cms/content/posts/today-is-saturday.md"
-      },
-      "author": {
-        "name": "Sujay Kundu",
-        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/photo_2024-05-26_09-54-20-IyMj.jpg",
-      "description": "This is a Saturday Post !!!",
-      "publishedAt": "2024-08-03T15:51:40.638Z",
-      "slug": "today-is-saturday",
-      "status": "published",
-      "title": "Today is Saturday !!"
-    },
-    {
-      "__outstatic": {
         "commit": "6d0a658386b7692380083a032ade148eee243057",
         "hash": "914661046",
         "path": "cms/content/sessions/guest-session.md"
@@ -55,6 +37,24 @@
       "slug": "guest-session",
       "status": "draft",
       "title": "Guest Session"
+    },
+    {
+      "__outstatic": {
+        "commit": "c6427ac2e9c96d497c9490a0e023026966dd0657",
+        "hash": "4074883410",
+        "path": "cms/content/posts/today-is-saturday.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/photo_2024-05-26_09-54-20-IyMj.jpg",
+      "description": "This is a Saturday Post !!!",
+      "publishedAt": "2024-08-03T15:51:40.638Z",
+      "slug": "today-is-saturday",
+      "status": "published",
+      "title": "Today is Saturday !!"
     }
   ]
 }
