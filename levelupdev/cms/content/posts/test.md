@@ -1,6 +1,6 @@
 ---
 title: 'test'
-status: 'draft'
+status: 'published'
 author:
   name: 'Sujay Kundu'
   picture: 'https://avatars.githubusercontent.com/u/10703200?v=4'
