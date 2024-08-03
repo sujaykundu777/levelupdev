@@ -1,6 +1,6 @@
 {
-  "commit": "f18c22bb1cc75c42badb8e6ee044c2db31ffa778",
-  "generated": "2024-08-03T15:21:47.491Z",
+  "commit": "6d0a658386b7692380083a032ade148eee243057",
+  "generated": "2024-08-03T15:27:10.190Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,6 +37,24 @@
       "slug": "today-is-saturday",
       "status": "published",
       "title": "Today is Saturday !!"
+    },
+    {
+      "__outstatic": {
+        "commit": "6d0a658386b7692380083a032ade148eee243057",
+        "hash": "914661046",
+        "path": "cms/content/sessions/guest-session.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "collection": "sessions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-03T15:59:52.056Z",
+      "slug": "guest-session",
+      "status": "draft",
+      "title": "Guest Session"
     }
   ]
 }
