@@ -1,6 +1,6 @@
 {
-  "commit": "11034b8cd07a6d1b3b64f505207521dca80a5b26",
-  "generated": "Sat, 03 Aug 2024 14:22:38 GMT",
+  "commit": "f18c22bb1cc75c42badb8e6ee044c2db31ffa778",
+  "generated": "2024-08-03T15:21:47.491Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,6 +19,24 @@
       "slug": "hello-world",
       "status": "published",
       "title": "Hello world !!"
+    },
+    {
+      "__outstatic": {
+        "commit": "f18c22bb1cc75c42badb8e6ee044c2db31ffa778",
+        "hash": "2905592984",
+        "path": "cms/content/posts/today-is-saturday.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/photo_2024-05-26_09-54-20-IyMj.jpg",
+      "description": "This is a Saturday Post !!!",
+      "publishedAt": "2024-08-03T15:51:40.638Z",
+      "slug": "today-is-saturday",
+      "status": "published",
+      "title": "Today is Saturday !!"
     }
   ]
 }
