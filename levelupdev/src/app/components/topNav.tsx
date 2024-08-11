@@ -64,6 +64,9 @@ const TopNav = ({ user }: { user: any }) => {
             <Link href="/blog" className="text-white hover:text-white">
               Blog
             </Link>
+            <Link href="/contribute" className="text-white hover:text-white">
+              Contribute
+            </Link>
             {isLoggedIn && <Logout isMenuOpen={false} />}
             {!isLoggedIn && (
               <Link href="/login" className="text-white hover:text-white">
