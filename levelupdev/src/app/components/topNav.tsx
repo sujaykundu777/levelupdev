@@ -67,8 +67,8 @@ const TopNav = ({ user }: { user: any }) => {
             <Link href="/guides" className="text-white hover:text-white">
               Guides
             </Link>
-            <Link href="/contribute" className="text-white hover:text-white">
-              Contribute
+            <Link href="/crew" className="text-white hover:text-white">
+              Crew
             </Link>
             {isLoggedIn && <Logout isMenuOpen={false} />}
             {!isLoggedIn && (
@@ -145,6 +145,9 @@ const TopNav = ({ user }: { user: any }) => {
             className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
           >
             Guides
+          </Link>
+          <Link href="/crew" className="text-white hover:text-white">
+            Crew
           </Link>
           {isLoggedIn && <Logout isMenuOpen />}
           {!isLoggedIn && (

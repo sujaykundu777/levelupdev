@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 const ContributePage = () => {
-  console.log("Contributors page");
   return (
     <div
       style={{
@@ -14,7 +13,7 @@ const ContributePage = () => {
     >
       <div className="absolute top-[15%] left-1/2 -translate-x-1/2 flex flex-col gap-y-4 text-center">
         <h2 className="text-[35px] tab:text-[28px] mobile:text-[20px] font-normal text-white">
-          Contributors
+          Contibutors
         </h2>
         <div>
           <p className="text-center mx-auto text-[25px] w-[80%] tab:text-[18px] mobile:text-[15px] font-normal text-white">
