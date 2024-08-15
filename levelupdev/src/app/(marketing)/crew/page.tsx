@@ -1,15 +1,32 @@
 import Image from "next/image";
 import React from "react";
+import ProfileCard from "@/app/components/common/ProfileCard";
 
 const ContributePage = () => {
+  const dummyUser = {
+    name: "John Doe",
+    avatar: "/images/contributor.jpg",
+    title: "Software Engineer",
+    bio: "I am a software engineer with 10 years of experience in building web applications.",
+    socials: {
+      github: "",
+      twitter: "",
+      linkedin: "",
+      website: "",
+      email: "",
+    },
+  };
+
   return (
     <div
       style={{
         backgroundImage: "url('/images/contribute-bg.jpeg')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        height: "200vh",
       }}
-      className="h-[140vh] flex items-center relative tab:hidden"
+      className="flex items-center relative tab:hidden"
     >
       <div className="absolute top-[15%] left-1/2 -translate-x-1/2 flex flex-col gap-y-4 text-center">
         <h2 className="text-[35px] tab:text-[28px] mobile:text-[20px] font-normal text-white">
@@ -26,16 +43,9 @@ const ContributePage = () => {
             program
           </p>
         </div>
-        <div className="w-[110%] mx-auto grid grid-cols-4 grid-rows-2 gap-10 mt-4">
+        <div className="w-[110%] mx-auto grid grid-cols-3 grid-rows-2 gap-10 mt-4">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-            <Image
-              key={item}
-              alt="Contributor"
-              src="/images/contributor.jpg"
-              width={1000}
-              height={1000}
-              className="rounded-md"
-            />
+            <ProfileCard key={item} user={dummyUser} />
           ))}
         </div>
       </div>
