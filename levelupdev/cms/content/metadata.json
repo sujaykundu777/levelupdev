@@ -1,6 +1,6 @@
 {
-  "commit": "7a614b5c653d98ab6f2cf252a4be8f143d9c0d49",
-  "generated": "2024-08-15T17:22:59.897Z",
+  "commit": "66d543fbbc3117ab3e3e4dc514ab11269c0045b5",
+  "generated": "2024-08-15T17:24:37.453Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,24 +37,6 @@
       "slug": "today-is-saturday",
       "status": "published",
       "title": "Today is Saturday !!"
-    },
-    {
-      "__outstatic": {
-        "commit": "4e3cc1eac8683097f0bee8556635cfb42a1ca1a3",
-        "hash": "3059499938",
-        "path": "cms/content/category/frontend.md"
-      },
-      "author": {
-        "name": "Sujay Kundu",
-        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
-      },
-      "collection": "category",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-15T17:51:02.247Z",
-      "slug": "frontend",
-      "status": "published",
-      "title": "Frontend"
     },
     {
       "__outstatic": {
