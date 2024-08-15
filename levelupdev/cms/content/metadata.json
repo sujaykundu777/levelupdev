@@ -1,25 +1,7 @@
 {
-  "commit": "66d543fbbc3117ab3e3e4dc514ab11269c0045b5",
-  "generated": "2024-08-15T17:24:37.453Z",
+  "commit": "e791bf4cdf07052e31d5f74e01af0c01c108138b",
+  "generated": "2024-08-15T17:24:41.451Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "6d0a658386b7692380083a032ade148eee243057",
-        "hash": "914661046",
-        "path": "cms/content/sessions/guest-session.md"
-      },
-      "author": {
-        "name": "Sujay Kundu",
-        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
-      },
-      "collection": "sessions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-03T15:59:52.056Z",
-      "slug": "guest-session",
-      "status": "draft",
-      "title": "Guest Session"
-    },
     {
       "__outstatic": {
         "commit": "c6427ac2e9c96d497c9490a0e023026966dd0657",
