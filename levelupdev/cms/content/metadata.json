@@ -1,6 +1,6 @@
 {
-  "commit": "e791bf4cdf07052e31d5f74e01af0c01c108138b",
-  "generated": "2024-08-15T17:24:41.451Z",
+  "commit": "b32a2167a1131aad05f6496a148ac7bb4fcd6a3b",
+  "generated": "2024-08-15T17:32:32.456Z",
   "metadata": [
     {
       "__outstatic": {
@@ -48,6 +48,30 @@
       "slug": "hello-world",
       "status": "published",
       "title": "Hello world !!"
+    },
+    {
+      "__outstatic": {
+        "commit": "b32a2167a1131aad05f6496a148ac7bb4fcd6a3b",
+        "hash": "3301903257",
+        "path": "cms/content/posts/happy-independence-day-india-2024.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "categories": [
+        {
+          "label": "Festival",
+          "value": "festival"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "/images/independence_day_2024_indian_flag_evolution_histor_1723621660796_1723621661031-MzND.webp",
+      "description": "",
+      "publishedAt": "2024-08-15T17:57:47.242Z",
+      "slug": "happy-independence-day-india-2024",
+      "status": "published",
+      "title": "Happy Independence Day India 2024"
     }
   ]
 }

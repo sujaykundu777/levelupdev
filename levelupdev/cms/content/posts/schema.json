@@ -16,6 +16,10 @@
         {
           "value": "backend",
           "label": "Backend"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
         }
       ]
     }
