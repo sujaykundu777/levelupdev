@@ -15,7 +15,16 @@
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Categories",
-      "values": []
+      "values": [
+        {
+          "value": "frontend",
+          "label": "Frontend"
+        },
+        {
+          "value": "backend",
+          "label": "Backend"
+        }
+      ]
     }
   }
 }

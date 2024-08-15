@@ -1,25 +1,7 @@
 {
-  "commit": "4e3cc1eac8683097f0bee8556635cfb42a1ca1a3",
-  "generated": "2024-08-15T17:19:59.213Z",
+  "commit": "7a614b5c653d98ab6f2cf252a4be8f143d9c0d49",
+  "generated": "2024-08-15T17:22:59.897Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "c0f61165f21af51101e735458eb46ed5a2811f78",
-        "hash": "1191058718",
-        "path": "/cms/content/posts/hello-world.md"
-      },
-      "author": {
-        "name": "Sujay Kundu",
-        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/b-k0MD.png",
-      "description": "",
-      "publishedAt": "2024-07-19T17:00:39.912Z",
-      "slug": "hello-world",
-      "status": "published",
-      "title": "Hello world !!"
-    },
     {
       "__outstatic": {
         "commit": "6d0a658386b7692380083a032ade148eee243057",
@@ -73,6 +55,35 @@
       "slug": "frontend",
       "status": "published",
       "title": "Frontend"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a614b5c653d98ab6f2cf252a4be8f143d9c0d49",
+        "hash": "3770282145",
+        "path": "cms/content/posts/hello-world.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "categories": [
+        {
+          "label": "Frontend",
+          "value": "frontend"
+        },
+        {
+          "label": "Backend",
+          "value": "backend"
+        }
+      ],
+      "category": "Frontend",
+      "collection": "posts",
+      "coverImage": "/images/b-k0MD.png",
+      "description": "",
+      "publishedAt": "2024-07-19T17:00:39.912Z",
+      "slug": "hello-world",
+      "status": "published",
+      "title": "Hello world !!"
     }
   ]
 }

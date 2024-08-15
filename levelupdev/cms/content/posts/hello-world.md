@@ -7,6 +7,8 @@ author:
 slug: 'hello-world'
 description: ''
 coverImage: '/images/b-k0MD.png'
+category: 'Frontend'
+categories: [{"label":"Frontend","value":"frontend"},{"label":"Backend","value":"backend"}]
 publishedAt: '2024-07-19T17:00:39.912Z'
 ---
 
