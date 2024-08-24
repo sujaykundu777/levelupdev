@@ -1,0 +1,77 @@
+{
+  "commit": "b32a2167a1131aad05f6496a148ac7bb4fcd6a3b",
+  "generated": "2024-08-15T17:32:32.456Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "c6427ac2e9c96d497c9490a0e023026966dd0657",
+        "hash": "4074883410",
+        "path": "cms/content/posts/today-is-saturday.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/photo_2024-05-26_09-54-20-IyMj.jpg",
+      "description": "This is a Saturday Post !!!",
+      "publishedAt": "2024-08-03T15:51:40.638Z",
+      "slug": "today-is-saturday",
+      "status": "published",
+      "title": "Today is Saturday !!"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a614b5c653d98ab6f2cf252a4be8f143d9c0d49",
+        "hash": "3770282145",
+        "path": "cms/content/posts/hello-world.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "categories": [
+        {
+          "label": "Frontend",
+          "value": "frontend"
+        },
+        {
+          "label": "Backend",
+          "value": "backend"
+        }
+      ],
+      "category": "Frontend",
+      "collection": "posts",
+      "coverImage": "/images/b-k0MD.png",
+      "description": "",
+      "publishedAt": "2024-07-19T17:00:39.912Z",
+      "slug": "hello-world",
+      "status": "published",
+      "title": "Hello world !!"
+    },
+    {
+      "__outstatic": {
+        "commit": "b32a2167a1131aad05f6496a148ac7bb4fcd6a3b",
+        "hash": "3301903257",
+        "path": "cms/content/posts/happy-independence-day-india-2024.md"
+      },
+      "author": {
+        "name": "Sujay Kundu",
+        "picture": "https://avatars.githubusercontent.com/u/10703200?v=4"
+      },
+      "categories": [
+        {
+          "label": "Festival",
+          "value": "festival"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "/images/independence_day_2024_indian_flag_evolution_histor_1723621660796_1723621661031-MzND.webp",
+      "description": "",
+      "publishedAt": "2024-08-15T17:57:47.242Z",
+      "slug": "happy-independence-day-india-2024",
+      "status": "published",
+      "title": "Happy Independence Day India 2024"
+    }
+  ]
+}
