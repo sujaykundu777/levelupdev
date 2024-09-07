@@ -64,7 +64,11 @@ const TopNav = ({ user }: { user: any }) => {
             <Link href="/blog" className="text-white hover:text-white">
               Blog
             </Link>
-            <Link href="/guides" className="text-white hover:text-white">
+            <Link
+              href="https://guides.levelupdev.in"
+              className="text-white hover:text-white"
+              target="_blank"
+            >
               Guides
             </Link>
             <Link href="/crew" className="text-white hover:text-white">
@@ -141,7 +145,8 @@ const TopNav = ({ user }: { user: any }) => {
             Blog
           </Link>
           <Link
-            href="/guides"
+            href="https://guides.levelupdev.in"
+            target="_blank"
             className="block px-4 py-2 text-gray-800 hover:bg-black hover:text-white"
           >
             Guides
