@@ -2,7 +2,7 @@
 title: What makes a good portfolio/side project? 
 date: 2024-07-18
 description: 'What makes a good portfolio or side project, understand what that needs.'
-publishedAt: 2024-00-22
+publishedAt: 2024-09-22
 status: published
 slug: '/what-makes-a-good-portfolio-project'
 tags: 'tips'
