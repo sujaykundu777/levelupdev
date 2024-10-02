@@ -2,7 +2,9 @@ import { format, parseISO } from "date-fns";
 import { allPosts } from "contentlayer/generated";
 import Link from "next/link";
 import Image from "next/image";
-import MDXContent from "../../../components/MdxContent";
+import { useMDXComponent } from "next-contentlayer2/hooks";
+import { mdxComponents } from "../../../components/MdxComponents";
+// import MDXContent from "../../../components/MdxContent";
 
 export const generateStaticParams = async () =>
   allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
@@ -15,11 +17,14 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
 
 const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
+
+  const MDXContent = post ? useMDXComponent(post.body.code) : null;
+
   if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
 
   return (
-    <div className="mx-auto max-w-xl py-20">
-      <article className="mx-auto max-w-3xl py-8 prose md:prose-lg lg:prose-xl dark:prose-invert">
+    <div className="py-20">
+      <article className="mx-auto max-w-4xl py-8 prose md:prose-lg lg:prose-xl dark:prose-invert">
         <div className="mb-8 text-center">
           <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
             {post && post.date
@@ -27,7 +32,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
               : ""}
           </time>
 
-          <h1 className="text-3xl font-bold">{post.title}</h1>
+          <h1 className="text-3xl font-bold text-lime-500">{post.title}</h1>
           <p className="prose-free">{post.description}</p>
 
           {post.coverImage &&
@@ -57,11 +62,14 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
               />
             ))}
         </div>
-        <div
+        {/* <div
           className="[&>*]:mb-3 [&>*:last-child]:mb-0"
           dangerouslySetInnerHTML={{ __html: post.body.html }}
-        />
+        /> */}
         {/* <MDXContent code={post.body.html} /> */}
+        <div className="[&>*]:mb-3 [&>*:last-child]:mb-0">
+          {MDXContent && <MDXContent components={mdxComponents} />}
+        </div>
       </article>
     </div>
   );
