@@ -1,8 +1,53 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import ProfileCard from "@/app/components/common/ProfileCard";
 
 const ContributePage = () => {
+  const contributors = [
+    {
+      id: 1,
+      name: "Sujay Kundu",
+      avatar: "/images/contributors/sujay.jpg",
+      title: "Full Stack Developer",
+      bio: "Senior Experience Engineer at Publicis Sapient",
+      socials: {
+        github: "https://github.com/sujaykundu777",
+        twitter: "https://github.com/xplor4r",
+        linkedin: "https://linkedin.com/in/sujay-kundu",
+        website: "https://sujaykundu.com",
+        email: "sujaykundu777@gmail.com",
+      },
+    },
+    {
+      id: 2,
+      name: "Vivek",
+      avatar: "/images/contributor.jpg",
+      title: "Software Engineer",
+      bio: "I am a software engineer with 10 years of experience in building web applications.",
+      socials: {
+        github: "",
+        twitter: "",
+        linkedin: "",
+        website: "",
+        email: "",
+      },
+    },
+    {
+      id: 3,
+      name: "Vinayak",
+      avatar: "/images/contributor.jpg",
+      title: "Software Engineer",
+      bio: "I am a software engineer with 10 years of experience in building web applications.",
+      socials: {
+        github: "",
+        twitter: "",
+        linkedin: "",
+        website: "",
+        email: "",
+      },
+    },
+  ];
+
   const dummyUser = {
     name: "John Doe",
     avatar: "/images/contributor.jpg",
@@ -44,8 +89,11 @@ const ContributePage = () => {
           </p>
         </div>
         <div className="w-[110%] mx-auto grid grid-cols-3 grid-rows-2 gap-10 mt-4">
-          {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
+          {/* {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
             <ProfileCard key={item} user={dummyUser} />
+          ))} */}
+          {contributors.map((contributor) => (
+            <ProfileCard key={contributor.id} user={contributor} />
           ))}
         </div>
       </div>

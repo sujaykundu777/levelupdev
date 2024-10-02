@@ -27,7 +27,7 @@ interface UserProps {
 
 const ProfileCard = ({ user }: { user: UserProps }) => {
   return (
-    <div className="flex flex-col items-center space-x-2 bg-black py-4 px-4">
+    <div className="flex flex-col items-center justify-center text-center bg-black py-4 px-4">
       <Image
         src={user?.avatar || "/images/default-avatar.png"}
         alt={user?.name}
