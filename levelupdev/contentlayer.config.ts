@@ -11,16 +11,22 @@ import lazyLoadPlugin from 'rehype-plugin-image-native-lazy-loading';
     
 const Author = defineNestedType(() => ({
     name: 'Author',
+    filePathPattern: 'authors/**/*.mdx',
+    type: 'Author',
+    contentType: 'mdx',
     fields: {
         name: { type: 'string', required: true },
         picture: { type: 'string', required: true },
     },
+    computedFields: {
+        slug: { type: 'string', resolve: (author: { _raw: { flattenedPath: any } }) => `/authors/${author._raw.flattenedPath}` }
+    }
 }));
 
 export const Post = defineDocumentType(() => ({
     name: 'Post',
-    filePathPattern: `**/*.md`,
-    contentType: 'markdown',
+    filePathPattern: `**/*.mdx`,
+    contentType: 'mdx',
     fields: {
         title: {
             type: 'string',
