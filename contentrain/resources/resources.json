@@ -1,0 +1,12 @@
+[
+  {
+    "ID": "e702b28e823d",
+    "createdAt": "Sun Oct 13 2024 10:46:59 GMT+0530 (India Standard Time)",
+    "updatedAt": "Sun Oct 13 2024 10:46:59 GMT+0530 (India Standard Time)",
+    "title": "Test Resource",
+    "slug": "/test-resource",
+    "summary": "Test Resource will delete later",
+    "status": "publish",
+    "scheduled": false
+  }
+]
