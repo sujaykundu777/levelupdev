@@ -72,5 +72,15 @@
     },
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "Slug",
+    "description": "Resource slug",
+    "fieldId": "slug",
+    "modelId": "resources",
+    "componentId": "slug",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
