@@ -58,5 +58,19 @@
     "system": true,
     "defaultField": false,
     "modelId": "resources"
+  },
+  {
+    "name": "Title",
+    "description": "Resource Title",
+    "fieldId": "title",
+    "modelId": "resources",
+    "componentId": "single-line-text",
+    "options": {
+      "title-field": {
+        "value": true
+      }
+    },
+    "validations": {},
+    "fieldType": "string"
   }
 ]
