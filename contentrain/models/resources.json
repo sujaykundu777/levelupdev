@@ -82,5 +82,15 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "summary",
+    "description": "Resource Summary",
+    "fieldId": "summary",
+    "modelId": "resources",
+    "componentId": "multi-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
