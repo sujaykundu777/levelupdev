@@ -23,7 +23,7 @@ const ContributePage = () => {
       name: "Eswar vinay Venkatesh Pedagadi",
       avatar: "/images/eswar.jpg",
       title: "Software Engineer",
-      bio: "I am a software engineer with 2 years of experience in building web applications.",
+      bio: "I'm Eswar, a MERN stack developer with 2.5 years of experience at Manufacton, specializing in building web applications with MongoDB, Express, React, and Node.js.",
       socials: {
         github: "https://github.com/Eswar563",
         twitter: "",
