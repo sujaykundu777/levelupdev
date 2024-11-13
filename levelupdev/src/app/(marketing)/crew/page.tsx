@@ -20,6 +20,20 @@ const ContributePage = () => {
     },
     {
       id: 2,
+      name: "Eswar vinay Venkatesh Pedagadi",
+      avatar: "/images/eswar.jpg",
+      title: "Software Engineer",
+      bio: "I am a software engineer with 2 years of experience in building web applications.",
+      socials: {
+        github: "https://github.com/Eswar563",
+        twitter: "",
+        linkedin: "https://www.linkedin.com/in/eswar-vinay-venkatesh-pedagadi-3757471a6/",
+        website: "https://eswarpedagadi.com",
+        email: "evv.pedagadi365@gmail.com",
+      },
+    },
+    {
+      id: 3,
       name: "Vivek",
       avatar: "/images/contributor.jpg",
       title: "Software Engineer",
@@ -33,7 +47,7 @@ const ContributePage = () => {
       },
     },
     {
-      id: 3,
+      id: 4,
       name: "Vinayak",
       avatar: "/images/contributor.jpg",
       title: "Software Engineer",
@@ -48,37 +62,7 @@ const ContributePage = () => {
     },
   ];
 
-  const dummyUser = [
-    {
-      id:1,
-      name: "John Doe",
-      avatar: "/images/contributor.jpg",
-      title: "Software Engineer",
-      bio: "I am a software engineer with 10 years of experience in building web applications.",
-      socials: {
-        github: "",
-        twitter: "",
-        linkedin: "",
-        website: "",
-        email: "",
-      },
-    },
-    {
-      id:2,
-      name: "Eswar vinay Venkatesh Pedagadi",
-      avatar: "/images/eswar.jpg",
-      title: "Software Engineer",
-      bio: "I am a software engineer with 2 years of experience in building web applications.",
-      socials: {
-        github: "https://github.com/Eswar563",
-        twitter: "",
-        linkedin: "https://www.linkedin.com/in/eswar-vinay-venkatesh-pedagadi-3757471a6/",
-        website: "https://eswarpedagadi.com",
-        email: "evv.pedagadi365@gmail.com",
-      },
-    }
-
-  ]
+  
 
   return (
     <div
@@ -109,9 +93,6 @@ const ContributePage = () => {
         <div className="w-[110%] mx-auto grid grid-cols-3 grid-rows-2 gap-10 mt-4">
           {contributors && contributors.map((contributor) => (
             <ProfileCard key={contributor.id} user={contributor} />
-          ))}
-          {dummyUser && dummyUser.map((dummyUser) => (
-            <ProfileCard key={dummyUser.id} user={dummyUser} />
           ))}
         </div>
       </div>
