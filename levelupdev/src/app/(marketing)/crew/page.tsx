@@ -23,7 +23,7 @@ const ContributePage = () => {
       name: "Eswar vinay Venkatesh Pedagadi",
       avatar: "/images/eswar.jpg",
       title: "Software Engineer",
-      bio: "I'm Eswar, a MERN stack developer with 2.5 years of experience at Manufacton, specializing in building web applications with MongoDB, Express, React, and Node.js.",
+      bio: "A MERN stack developer at Manufacton, specializing in building robust web applications with MongoDB, Express, React, and Node.js. Skilled in full-stack development, API integration, and scalable architecture for high-performance solutions.",
       socials: {
         github: "https://github.com/Eswar563",
         twitter: "",
