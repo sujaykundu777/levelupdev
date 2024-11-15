@@ -20,6 +20,20 @@ const ContributePage = () => {
     },
     {
       id: 2,
+      name: "Eswar vinay Venkatesh Pedagadi",
+      avatar: "/images/eswar.jpg",
+      title: "Software Engineer",
+      bio: "A MERN stack developer at Manufacton, specializing in building robust web applications with MongoDB, Express, React, and Node.js. Skilled in full-stack development, API integration, and scalable architecture for high-performance solutions.",
+      socials: {
+        github: "https://github.com/Eswar563",
+        twitter: "",
+        linkedin: "https://www.linkedin.com/in/eswar-vinay-venkatesh-pedagadi-3757471a6/",
+        website: "https://eswarpedagadi.com",
+        email: "evv.pedagadi365@gmail.com",
+      },
+    },
+    {
+      id: 3,
       name: "Vivek",
       avatar: "/images/contributor.jpg",
       title: "Software Engineer",
@@ -33,7 +47,7 @@ const ContributePage = () => {
       },
     },
     {
-      id: 3,
+      id: 4,
       name: "Vinayak",
       avatar: "/images/contributor.jpg",
       title: "Software Engineer",
@@ -48,19 +62,7 @@ const ContributePage = () => {
     },
   ];
 
-  const dummyUser = {
-    name: "John Doe",
-    avatar: "/images/contributor.jpg",
-    title: "Software Engineer",
-    bio: "I am a software engineer with 10 years of experience in building web applications.",
-    socials: {
-      github: "",
-      twitter: "",
-      linkedin: "",
-      website: "",
-      email: "",
-    },
-  };
+  
 
   return (
     <div
@@ -89,10 +91,7 @@ const ContributePage = () => {
           </p>
         </div>
         <div className="w-[110%] mx-auto grid grid-cols-3 grid-rows-2 gap-10 mt-4">
-          {/* {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-            <ProfileCard key={item} user={dummyUser} />
-          ))} */}
-          {contributors.map((contributor) => (
+          {contributors && contributors.map((contributor) => (
             <ProfileCard key={contributor.id} user={contributor} />
           ))}
         </div>
