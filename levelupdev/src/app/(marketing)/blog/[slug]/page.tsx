@@ -18,6 +18,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
 const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const MDXContent = post ? useMDXComponent(post.body.code) : null;
 
   if (!post) throw new Error(`Post not found for slug: ${params.slug}`);

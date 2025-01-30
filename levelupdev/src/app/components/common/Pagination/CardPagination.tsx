@@ -65,7 +65,7 @@ const CardPagination = ({
           data &&
           currentPageData.length &&
           currentPageData?.map((item: any) => (
-            <div>
+            <div key={item.id}>
               {ArticleCardComp ? (
                 <ArticleCardComp
                   key={item.id}
