@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Resources",
+    "description": "Cool Resources",
+    "modelId": "resources",
+    "localization": false,
+    "type": "JSON",
+    "createdBy": "user",
+    "isServerless": false
+  }
+]
